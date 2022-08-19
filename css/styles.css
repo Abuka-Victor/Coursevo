@@ -32,7 +32,6 @@ body {
     line-height: 1.2;
     color: var(--color-white);
     background: var(--color-bg);
-    height: 400vh;
 }
 
 /* Utils */

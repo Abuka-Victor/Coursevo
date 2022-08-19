@@ -1,0 +1,26 @@
+section.about-achievements{
+    margin-top: 3rem;
+}
+
+.about-achievements_container{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 5rem;
+}
+
+.about-achievements_container .achievement-right > p{
+    margin: 1.6rem 0 2.5rem;
+}
+
+.achievement-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+}
+
+.achievement-card{
+    background: var(--color-bg1);
+    padding: 1.6rem;
+    border-radius: 1rem;
+    text-align: center;
+}
